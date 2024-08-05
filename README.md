@@ -37,6 +37,12 @@ yarn dev
 # bun
 bun run dev
 ```
+Create a .env file and enter the values:
+```bash
+NUXT_PUBLIC_TMDB_API_URL=(API_URL_OF_TMDB_BASE_URL)(https://api.themoviedb.org/3)
+NUXT_PUBLIC_TMDB_API_KEY=(ENTER_YOUR_TMDB_API_KEY)
+NUXT_PUBLIC_TMDB_IMAGE_URL=(ENTER_THE_TMDB_BASE_IMAGE_URL)(https://image.tmdb.org/t/p/original)
+```
 
 ## Production
 
